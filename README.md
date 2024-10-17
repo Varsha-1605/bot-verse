@@ -189,17 +189,17 @@ Download `Tailwind CLI` from official [releases](https://github.com/tailwindlabs
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Ayushjhawar8">
-                    <img src="https://avatars.githubusercontent.com/u/111112495?v=4" width="75;" alt="Ayushjhawar8"/>
-                    <br />
-                    <sub><b>Ayushjhawar8</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/Varsha-1605">
                     <img src="https://avatars.githubusercontent.com/u/140236223?v=4" width="75;" alt="Varsha-1605"/>
                     <br />
                     <sub><b>Varsha-1605</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Ayushjhawar8">
+                    <img src="https://avatars.githubusercontent.com/u/111112495?v=4" width="75;" alt="Ayushjhawar8"/>
+                    <br />
+                    <sub><b>Ayushjhawar8</b></sub>
                 </a>
             </td>
             <td align="center">
