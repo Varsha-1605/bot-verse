@@ -21,25 +21,6 @@
             <input type="text" id="chatbot-search" placeholder="Search chatbots..." class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
         </div>
 
-<<<<<<< HEAD
-        <a href="{{ url_for('logout') }}" class="text-white hover:text-gray-300">Logout</a>
-    </nav>
-
-    <div class="max-w-7xl mx-auto mt-6 p-2 px-6 rounded-md bg-white">
-        <h2 class="text-4xl font-semibold mb-5 text-black dark:text-black">Welcome 👋, <span class="text-blue-400">{{ current_user.username }}</span>!</h2>
-
-        <a href="{{ url_for('create_chatbot') }}" class="fixed bottom-16 right-16">
-            <button class="text-blue-600 text-3xl hover:text-blue-700">
-                <i class="fas fa-plus"></i>
-            </button>
-        </a>
-
-        {% if system_chatbots %}
-            <div class="mb-8">
-                <!-- <h2 class="text-2xl font-semibold mb-6">System Chatbots</h2> -->
-                <h2 class="text-2xl font-semibold mb-6 text-black dark:text-black">System Chatbots</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-=======
         <a href="{{ url_for('create_chatbot') }}" class="fixed bottom-16 right-16 bg-blue-600 hover:bg-blue-700 text-white text-3xl p-4 rounded-full shadow-lg transition duration-300">
             <i class="fas fa-plus"></i>
         </a>
@@ -48,7 +29,6 @@
             <div class="mb-12">
                 <h2 class="text-2xl font-bold mb-6 text-gray-800">System Chatbots</h2>
                 <div id="system-chatbots" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
->>>>>>> feature/my-feature
                     {% for chatbot in system_chatbots %}
                         <div class="chatbot-card bg-white p-6 rounded-lg shadow-md border border-gray-200 flex flex-col justify-between h-64 transform hover:scale-105 transition duration-300">
                             <div>
@@ -70,11 +50,7 @@
             </div>
         {% endif %}
 
-<<<<<<< HEAD
-        <h2 class="text-2xl font-semibold mb-6 text-black dark:text-black">Your Chatbots</h2>
-=======
         <h2 class="text-2xl font-bold mb-6 text-gray-800">Your Chatbots</h2>
->>>>>>> feature/my-feature
         {% if chatbots %}
             <div id="user-chatbots" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {% for chatbot in chatbots %}
